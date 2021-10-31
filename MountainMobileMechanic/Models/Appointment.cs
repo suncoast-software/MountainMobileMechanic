@@ -11,6 +11,7 @@ namespace MountainMobileMechanic.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Title { get; set; }
+        public string Comment { get; set; }
         public DateTime AppointmentDate { get; set; }
     }
 }

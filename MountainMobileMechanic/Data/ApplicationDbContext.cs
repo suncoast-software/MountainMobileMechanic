@@ -24,7 +24,7 @@ namespace MountainMobileMechanic.Data
         {
             base.OnModelCreating(builder);
 
-            builder.ApplyConfiguration(new AppointmentEntityTypeConfiguration());
+           // builder.ApplyConfiguration(new AppointmentEntityTypeConfiguration());
             
         }
     }
